@@ -1,6 +1,46 @@
 <%- include('partials/header.ejs'); -%>
 
 <h1>Contact</h1>
-<p> <%= contactContent %></p>
+<p><%= contactContent %></p>
+<p>feel free to get in touch by any of the below methods</p>
+<div class="grid-container">
+  <!-- website -->
+  <div class="container-fluid website">
+    <h3>website</h3>
+    <p>
+      visit my website at
+      <a href="https://niall-flannery.com">niall-flannery.com</a>
+    </p>
+    <iframe src="https://niall-flannery.com" width="300px" frameborder="0"></iframe>
+  </div>
+
+  <!-- linkedin -->
+  <div class="container-fluid linkedin">
+    <h3>Find me on linkedin</h3>
+    <div
+      class="badge-base LI-profile-badge container-fluid"
+      data-locale="en_US"
+      data-size="medium"
+      data-theme="light"
+      data-type="VERTICAL"
+      data-vanity="niallflannery1"
+      data-version="v1"
+    >
+      <a
+        class="badge-base__link LI-simple-link"
+        href="https://uk.linkedin.com/in/niallflannery1?trk=profile-badge"
+        >Niall Flannery</a
+      >
+    </div>
+  </div>
+
+  <!-- email -->
+  <div class="container-fluid email">
+    <h3>Drop me an email</h3>
+    <a href="mailto:n.a.flannery@outlook.com"
+      ><i class="fa fa-envelope-o"></i
+    ></a>
+  </div>
+</div>
 
 <%- include('partials/footer.ejs'); -%>
