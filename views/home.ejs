@@ -1,11 +1,13 @@
-<%- include('partials/header.ejs'); -%>
-
+<%- include("partials/header"); -%>
 <h1>Home</h1>
 <p><%= homeStartingContent %></p>
 
-<%for(let post in posts){ %>
-<h2><%=posts[post].postTitle %></h2>
-<p><%=posts[post].postBody.slice(0, 100)%>...<a href="<%= 'posts/'+ posts[post].postTitle %>">Read More</a></p>
-<% } %> 
+<% posts.forEach(function(post){ %>
 
-<%- include('partials/footer.ejs'); -%>
+<h1><%=post.title%></h1>
+<p>
+  <%=post.content.substring(0, 100) + " ..."%>
+  <a href="/posts/<%=postId%>">Read More</a>
+</p>
+
+<% }) %> <%- include("partials/footer"); -%>
