@@ -1,28 +1,20 @@
 {
   "name": "ejs-challenge",
   "version": "1.0.0",
-  "description": "my blog app to keep updating on learning progress",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Niall Flannery",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
     "ejs": "^3.1.7",
     "express": "^4.16.3",
-    "https": "^1.0.0",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.11",
     "mongodb": "^4.5.0",
-    "mongoose": "^6.3.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/naflannery/blogg-app-v1.git"
-  },
-  "bugs": {
-    "url": "https://github.com/naflannery/blogg-app-v1/issues"
-  },
-  "homepage": "https://github.com/naflannery/blogg-app-v1#readme"
+    "mongoose": "^6.3.2",
+    "mysql": "^2.18.1"
+  }
 }

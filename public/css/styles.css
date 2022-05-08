@@ -1,20 +1,18 @@
-.container-fluid {
-  padding-top: 70px;
-  padding-bottom: 70px;
+html, body{
+  font-size:100%;
+  line-height: 1.5;
 }
-.navbar {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  border: 0;
-  border-radius: 0;
-  margin-bottom: 0;
-  font-size: 12px;
-  letter-spacing: 5px;
+.navbar-brand{
+  padding-top:15px;
 }
-.navbar-nav li a:hover {
-  color: #1abc9c !important;
+.navbar-nav{
+ position:absolute;
+ right: 3rem;
 }
 
+.home-posts{
+  padding-top:20px;
+}
 .footer-padding {
   padding-bottom: 60px;
 }
@@ -32,27 +30,4 @@
   margin-top: 25px;
   font-size: 12px;
   color: #fff;
-}
-.grid-container {
-  display: grid;
-  grid-template-areas: "website linkedin email";
-  text-align: center;
-  justify-content: center;
-}
-.website {
-  grid-area: "website";
-}
-.linkedin {
-  grid-area: "linkedin";
-}
-.email {
-  grid-area: "email";
-}
-.fa-envelope-o {
-  color: #1abc9c;
-  font-size: 4rem;
-}
-.fa-envelope-o:hover {
-  font-size: 5rem;
-  color: #1add9c;
 }
