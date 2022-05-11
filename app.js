@@ -9,7 +9,7 @@ const homeStartingContent ="This journal app has been made as part of my web dev
   
 const aboutContent ="About this App. it has been made using a variety of technologies.*"
   
-const contactContent =""
+const contactContent ="Feel free to get hold of me with any questions you may have."
 
 const app = express();
 

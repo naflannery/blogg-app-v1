@@ -1,17 +1,36 @@
 <%- include("partials/header"); -%>
-<div class="container-md">
-<h1>Contact</h1>
-<p><%= contactContent %></p>
+
+<section id="contact" class="container-md">
+  <h2 class="display-3">Get in touch</h2>
+  <p><%= contactContent %></p>
+  <div class="row">
+    
+    <div class="col-md-3 text-center">
+      <a href="https://www.facebook.com/niall.flannery.3"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+    </div>
+
+    <div class="col-md-3 text-center">
+      <a href="https://twitter.com/NiallFlannery1"
+        ><i class="fab fa-twitter"></i
+      ></a>
+    </div>
+
+    <div class="col-md-3 text-center">
       <a
         class="badge-base__link LI-simple-link"
         href="https://uk.linkedin.com/in/niall-flannery-15b042215?trk=profile-badge"
         ><i class="fab fa-linkedin"></i
       ></a>
-    
-    
+    </div>
+
+    <div class="col-md-3 text-center">
       <a href="mailto:n.a.flannery@outlook.com"
-        >email me</a>
+        ><i class="fas fa-envelope"></i
+      ></a>
+    </div>
     
-  
-</div>
+  </div>
+</section>
 <%- include("partials/footer"); -%>
