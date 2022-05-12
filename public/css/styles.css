@@ -1,27 +1,29 @@
-html, body{
-  font-size:100%;
+html,
+body {
+  font-size: 100%;
   line-height: 1.5;
 }
-.navbar-brand{
-  padding-top:15px;
-  position:absolute;
+.navbar-brand {
+  padding-top: 15px;
+  position: absolute;
   left: 2rem;
 }
-.navbar-nav{
- position:absolute;
- right: 3rem;
+
+.navbar-nav {
+  position: absolute;
+  right: 4srem;
 }
 
-.home-posts{
-  padding-top:20px;
+.home-posts {
+  padding-top: 20px;
 }
 
-.row i{
-  padding-top:20px;
-font-size: 2rem ;
+.row i {
+  padding-top: 20px;
+  font-size: 2rem;
 }
-.row i:hover{
-  color:#1abc9c;
+.row i:hover {
+  color: #1abc9c;
 }
 .footer-padding {
   padding-bottom: 60px;
