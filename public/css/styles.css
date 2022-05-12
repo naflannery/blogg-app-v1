@@ -8,10 +8,17 @@ body {
   position: absolute;
   left: 2rem;
 }
+.navbar-brand{
+ font-size: 2rem;
+}
+
+.dropdown-toggle{
+  font-size: 1.5rem;
+}
 
 .navbar-nav {
   position: absolute;
-  right: 4srem;
+  right: 4rem;
 }
 
 .home-posts {
