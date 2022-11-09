@@ -2,14 +2,16 @@
 
 const express = require("express");
 const bodyParser = require("body-parser");
-const ejs = require("ejs");
 const mongoose = require("mongoose");
 
-const homeStartingContent ="This journal app has been made as part of my web development training. I plan on updating it with news about what I have learned and/or made as i continue down the rabbit hole that is ... Web Development"
-  
-const aboutContent ="About this App. it has been made using a variety of technologies.*"
-  
-const contactContent ="Feel free to get hold of me with any questions you may have."
+const homeStartingContent =
+  "This journal app has been made as part of my web development training. I plan on updating it with news about what I have learned and/or made as i continue down the rabbit hole that is ... Web Development";
+
+const aboutContent =
+  "About this App. it has been made using a variety of technologies.*";
+
+const contactContent =
+  "Feel free to get hold of me with any questions you may have.";
 
 const app = express();
 

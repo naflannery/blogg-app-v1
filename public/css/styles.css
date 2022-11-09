@@ -3,16 +3,19 @@ body {
   font-size: 100%;
   line-height: 1.5;
 }
+.home-container {
+  height: auto;
+}
 .navbar-brand {
   padding-top: 15px;
   position: absolute;
   left: 2rem;
 }
-.navbar-brand{
- font-size: 2rem;
+.navbar-brand {
+  font-size: 2rem;
 }
 
-.dropdown-toggle{
+.dropdown-toggle {
   font-size: 1.5rem;
 }
 
